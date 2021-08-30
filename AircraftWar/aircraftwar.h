@@ -6,8 +6,7 @@
 #include <conio.h>
 #include <time.h>
 
-#define X 20
-#define Y 10
+
 #define TARGET_RANGE 47
 
 

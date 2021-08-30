@@ -75,7 +75,7 @@ void Game()
 		//Print current score
 		printf("==================================================\n");
 		printf("                                          Score:%d\n", score);
-		if (score == 4)
+		if (score == 10)
 		{
 			printf("W i n!!!!!!!\n");
 			printf("Wait 5 seconds......\n");
@@ -89,6 +89,7 @@ void Rule()
 {
 	printf("+ ------ target\n");
 	printf("Destroy 10 target and win the game\n");
+	printf("w ------ up\ns ------ down\na ------ left\nd ------ right\nspace------shoot\n");
 }
 void menu()
 {
